@@ -1,0 +1,43 @@
+{
+    "array_name": "tmefa10",
+    "ct0.eth0": {
+        "address": "10.21.1.183",
+        "netmask": "255.255.255.0",
+        "gateway": "10.21.1.1"
+    },
+    "ct1.eth0": {
+        "address": "10.21.1.184",
+        "netmask": "255.255.255.0",
+        "gateway": "10.21.1.1"
+    },
+    "vir0": {
+        "address": "10.21.1.182",
+        "netmask": "255.255.255.0",
+        "gateway": "10.21.1.1"
+    },
+    "dns": {
+        "domain": "dev.purestorage.com",
+        "nameservers": [
+            "10.14.240.240"
+        ]
+    },
+    "ntp_servers": [
+        "time1.purestorage.com"
+    ],
+    "timezone": "America/Los_Angeles",
+    "smtp": {
+        "relay_host": "blackhole-smtp2.dev.purestorage.com",
+        "sender_domain": "purestorage.com"
+    },
+    "alert_emails": [
+        "amin@purestorage.com"
+    ],
+    "eula_acceptance": {
+        "accepted": true,
+        "accepted_by": {
+            "organization": "Pure Storage",
+            "full_name": "Syed Amin",
+            "job_title": "TME"
+        }
+    }
+}

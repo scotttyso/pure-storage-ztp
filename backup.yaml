@@ -1,0 +1,37 @@
+---
+
+pure_storage:
+  zero_touch_provisioning:
+    dns:
+      domain: purestorage.com
+      name_servers:
+        - 198.18.0.5
+        - 198.18.0.6
+    eula_acceptance:
+      full_name: John Doe
+      job_title: Storage Admin
+      organization: Example Corp
+    networking:
+      arrays:
+        - array_type: FlashArray
+          hostname: array1
+          ct0: 198.18.0.12
+          ct1: 198.18.0.13
+          vip: 198.18.0.11
+        - array_type: FlashBlade
+          hostname: array2
+          ct0: 198.18.0.22
+          ct1: 198.18.0.23
+          vip: 198.18.0.21
+      gateway: 198.18.0.1
+      netmask: 255.255.255.0
+    smtp:
+      alert_emails:
+        - admin@example.com
+      relay_host: smtp.example.com
+      sender_domain: example.com
+    time:
+      ntp_servers:
+        - 0.pool.ntp.org
+        - 1.pool.ntp.org
+      timezone: UTC
